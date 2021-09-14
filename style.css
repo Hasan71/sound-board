@@ -32,4 +32,5 @@ body {
     opacity: 0.6;
     background-color: rgb(17, 7, 75);
     color: #fff;
+    cursor: pointer;
 }

@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(160, 100, 223);
+    background-color: rgb(225, 205, 247);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -15,10 +15,10 @@ body {
 }
 
 .btn {
-    background-color: rgb(157, 211, 152);
+    background-color: rgb(11, 141, 6);
     border-radius: 5px;
     border:none;
-    color: rgb(138, 4, 172);
+    color: #fff;
     margin: 1rem;
     padding: 1.5rem;
     font-size: 1.2rem;
@@ -30,7 +30,8 @@ body {
 
 .btn:hover {
     opacity: 0.6;
-    background-color: rgb(17, 7, 75);
+    background-color: rgb(110, 30, 30);
     color: #fff;
+    border: 2px solid rgb(7, 189, 61);
     cursor: pointer;
 }

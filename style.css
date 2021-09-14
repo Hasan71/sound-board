@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(160, 100, 223);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    background-color: rgb(157, 211, 152);
+    border-radius: 5px;
+    border:none;
+    color: rgb(138, 4, 172);
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.6;
+    background-color: rgb(17, 7, 75);
+    color: #fff;
+}
